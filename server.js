@@ -1,7 +1,9 @@
-const { application } = require("express");
 const express = require("express");
 const PORT = process.env.PORT || 3001;
+const path = require("path");
 const app = express();
+
+const apiRoutes = require("./routes/apiRoutes");
 
 // Middleware configuration
 app.use(express.json());
