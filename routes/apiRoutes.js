@@ -37,4 +37,7 @@ router.post("/", function (req, res) {
     res.status(500).json("Your note was not Saved");
   }
 });
+
+//  Removal of deleted notes from db
+
 module.exports = router;
