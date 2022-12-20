@@ -2,6 +2,8 @@
 
 ## Deployment on Heroku
 
+https://canaano-note-taker.herokuapp.com/
+
 ## GITHUB repo
 
 https://github.com/canaano/Note-Taker
